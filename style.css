@@ -1,0 +1,117 @@
+              /***************** common style *******************/
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:white;
+    box-sizing:border-box;
+}
+.navbar,.section_title,.service_card,.review_card,.news_card,.visiting_footer_card,.main_footer_card
+{
+    text-align: center;
+}
+.logo,.navbar,.service_card,.review_card,.news_card,.visiting_footer_card,.main_footer_card
+{
+    margin-left: .3vh;
+}
+.container
+{
+    width:80%;
+    margin:0rem auto;
+}
+.row
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.col
+{
+    flex-basis:0;
+}
+.section_title
+{
+    flex-basis:100%;
+    margin-bottom: 3vh;
+    background:rgba(0, 132, 255, 0.377);
+}
+
+               /***************** separate style *******************/
+.homepage,.footer
+{
+    height:40vh;
+}
+.homepage
+{
+    background-color: rgba(202, 202, 202, 0.767);
+}
+.logo
+{
+    flex-basis:33%;
+}
+.navbar,.banner_container
+{
+    flex-basis:66%;
+}
+.logo,.navbar,.banner_h
+{
+    background:rgba(0, 132, 255, 0.377);
+}
+.banner
+{
+    margin-top:10vh;
+}
+.service,.review,.news,.footer
+{
+    padding-top:2vh;
+}
+.banner_h
+{
+    display:inline-block;
+}
+.banner_p
+{
+    background:rgba(0, 132, 255, 0.192);
+}
+.service,.review,.news
+{
+    height:45vh;
+}
+.service
+{
+    background-color: rgba(202, 202, 202, 0.411);
+}
+.service_card,.visiting_footer_card
+{
+    flex-basis:33.1%;
+}
+.review
+{
+    background-color: rgba(202, 202, 202, 0.308);
+}
+.review_card,.main_footer_card
+{
+    flex-basis: 49.75%;
+}
+.news
+{
+    background-color: rgba(202, 202, 202, 0.245);
+}
+.news_card
+{
+    flex-basis: 24.7%;
+}
+.service_card,.review_card,.news_card,.visiting_footer_card,.main_footer_card
+{
+    background:rgba(0, 83, 238, 0.144);
+}
+.service_card,.review_card,.news_card,.visiting_footer_card
+{
+    height:30vh;
+}
+.footer
+{
+    background-color: rgba(202, 202, 202, 0.120);
+}
